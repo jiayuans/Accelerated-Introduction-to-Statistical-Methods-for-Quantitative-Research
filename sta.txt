@@ -1,4 +1,9 @@
 first line
+<<<<<<< HEAD
 second line 
 third line
 fourth line
+=======
+second line
+third line
+>>>>>>> ss
