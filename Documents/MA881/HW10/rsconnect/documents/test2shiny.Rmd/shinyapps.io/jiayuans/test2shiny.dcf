@@ -1,8 +1,0 @@
-name: test2shiny
-account: jiayuans
-server: shinyapps.io
-bundleId: 304290
-url: https://jiayuans.shinyapps.io/test2shiny
-when: 1446649238.42118
-asMultiple: FALSE
-asStatic: FALSE
