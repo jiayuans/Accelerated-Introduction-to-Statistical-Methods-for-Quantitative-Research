@@ -1,0 +1,441 @@
+U N E D I T E D  L O C A L  C L I M A T O L O G I C A L  D A T A
+**NOTICE OF CHANGE:
+
+Effective July 28, 2000, observations contained in the Unedited Local Climatological
+Data Hourly Observations table are reported in whole degrees Fahrenheit.  The dry bulb,
+dewpoint and wet bulb temperature columns were originally reported to the nearest
+tenth of a degree Fahrenheit.  The Automated Surface Observing System (ASOS) records
+temperatures and dewpoints in whole degrees Fahrenheit, then converts these values to the 
+nearest tenth of a degree Celsius for observation transmission.  Until this date, these
+values online have incorrectly been converted back to the nearest tenth of a degree Fahrenheit,
+implying a level of precision that is not present at the instrument level.  We apologize
+for any inconvenience this may cause.
+
+The Automated Weather Observing System (AWOS) generally records temperatures and dewpoints in 
+whole degrees Fahrenheit, then converts these values to the nearest whole degree Celsius for 
+observation transmission.  Also, AWOS stations will often have less data (ie, fewer weather 
+elements) than ASOS stations.
+
+NCDC forms contain:
+whole degree Celsius temperature values for AWOS stations 
+tenths degrees Celsius temperature values for ASOS stations
+
+
+             NUMERICAL CODES LISTING FOR DAILY TABLE
+ -----------------------------------------------------------------
+ |  NUMERICAL |                                                  |
+ |    COLUMN  |             TERMINOLOGY                          |
+ |------------|--------------------------------------------------|
+ |     1      | DATE                                             |
+ |------------|--------------------------------------------------|
+ |TEMPERATURE:|           (DEGREES FAHRENHEIT)                   |
+ |------------|--------------------------------------------------| 
+ |     2      | MAXIMUM                                          |
+ |     3      | MINIMUM                                          |
+ |     4      | AVERAGE                                          |
+ |     5      | DEPARTURE FROM NORMAL                            |
+ |     6      | AVERAGE DEW POINT                                |
+ |     7      | AVERAGE WET BULB                                 |
+ |------------|--------------------------------------------------|
+ |DEGREE DAYS:| BASE 65 F                                        |
+ |------------|--------------------------------------------------|
+ |     8      | HEATING     (SEASON BEGINS WITH JULY)            |
+ |     9      | COOLING     (SEASON BEGINS WITH JANUARY)         |
+ |---------------------------------------------------------------|
+ |SIGNIFICANT |                                                  |
+ |WEATHER     |                                                  |
+  TYPES:      | WEATHER PHENOMENA                                |  
+ |------------|--------------------------------------------------|
+ |            | +FC TORNADO/WATERSPOUT                           |
+ |            | FC  FUNNEL CLOUD                                 |
+ |            | TS  THUNDERSTORM                                 |
+ |            | GR  HAIL                                         |
+ |            | RA  RAIN                                         |
+ |            | DZ  DRIZZLE                                      |
+ |            | SN  SNOW                                         |
+ |            | SG  SNOW GRAINS                                  |
+ |            | GS  SMALL HAIL &/OR SNOW PELLETS                 |
+ |            | PL  ICE PELLETS                                  |
+ |     10     | IC  CRYSTALS                                     |
+ |            | FG+ HEAVY FOG (FG & LE.25 MILES)                 |
+ |            | FG  FOG                                          |
+ |            | BR  MIST                                         |
+ |            | UP  UNKNOWN PRECIPITATION                        |
+ |            | HZ  HAZE                                         |
+ |            | FU  SMOKE                                        |
+ |            | VA  VOLCANIC ASH                                 |
+ |            | DU  WIDESPREAD DUST                              |
+ |            | DS  DUSTSTORM                                    |
+ |            | PO  SAND/DUST WHIRLS                             |
+ |            | SA  SAND                                         |
+ |            | SS  SANDSTORM                                    |
+ |            | PY  SPRAY                                        |
+ |            | SQ  SQUALL                                       |  
+ -----------------------------------------------------------------
+ 
+
+            NUMERICAL CODES LISTING FOR DAILY TABLE
+ -----------------------------------------------------------------
+ |  NUMERICAL    |                                               |
+ |    COLUMN     |                TERMINOLOGY                    |
+ |---------------|-----------------------------------------------|
+ |               | DESCRIPTORS AND QUALIFIERS                    |
+ |               |-----------------------------------------------| 
+ |               | DR  LOW DRIFTING                              |
+ |               | SH  SHOWER                                    |
+ |               | FZ  FREEZING                                  |
+ |     10        | MI  SHALLOW                                   |
+ |               | PR  PARTIAL                                   |
+ |               | BC  PATCHES                                   |
+ |               | BL  BLOWING                                   |
+ |               | VC  VICINITY                                  |
+ |               | -   LIGHT                                     |
+ |               | +   HEAVY                                     |
+ |               | "NO SIGN" MODERATE                            |
+ |---------------------------------------------------------------|
+ |   SNOW/ICE:   | INCHES                                        |
+ |---------------|-----------------------------------------------|
+ |      11       | SNOW/ICE (ON GROUND)(0600 LST)                |
+ |      12       | WATER EQUIVALENT (1200 LST)                   |
+ |---------------------------------------------------------------|
+ | PRECIPITATION:| INCHES (24-HR PERIOD ENDING AT INDICATED      |
+ |               |         LOCAL STANDARD TIME, SNOW DEPTHS      | 
+ |               |         OF 2 OR MORE INCHES)                  |
+ |---------------|-----------------------------------------------|
+ |      13       | SNOWFALL (INCHES AND TENTHS)(2400 LST)        | 
+ |      14       | WATER EQUIVALENT(INCHES & HUNDREDTHS(2400 LST)| 
+ |---------------------------------------------------------------|                               
+ | PRESSURE:     | INCHES OF HG                                  | 
+ |---------------|-----------------------------------------------|
+ |      15       | AVERAGE STATION PRESSURE                      | 
+ |      16       | AVERAGE SEA LEVEL PRESSURE                    | 
+ |---------------|-----------------------------------------------|
+ |    WIND:      | SPEED IN MILES PER HOUR                       |
+ |               | DIRECTION TO TENS OF DEGREES                  |
+ |---------------|-----------------------------------------------|
+ |     17        | RESULTANT WIND SPEED                          |
+ |     18        | RESULTANT DIRECTION - (WHOLE DEGREES)         |
+ |     19        | AVERAGE SPEED                                 |
+ |---------------|-----------------------------------------------|
+ |               | MAXIMUM:                                      |
+ |     20        | 5 SECOND SPEED                                |
+ |     21        | 5 SECOND DIRECTION                            |
+ |     22        | 2 MINUTE SPEED                                |
+ |     23        | 2 MINUTE DIRECTION                            |
+ |---------------|-----------------------------------------------|
+ |     24        | DATE                                          |
+ |---------------------------------------------------------------|
+ 
+
+            NUMERICAL CODES LISTING FOR DAILY TABLE
+ -----------------------------------------------------------------
+ | NOTES:                                                        |
+ | RESULTANT WIND IS THE VECTOR SUM OF WIND SPEEDS AND DIRECTIONS|
+ | DIVIDED BY THE NUMBER OF OBSERVATIONS.                        |
+ | COLS 20-21 AND 22-23:                                         |
+ | MAXIMUM AVERAGED WIND SPEEDS OF 5-SECOND AND 2-MINUTES        |
+ | DURATIONS, RESPECTIVELY.                                      |
+ |---------------------------------------------------------------|
+ | NOTES:                                                        | 
+ | *  EXTREME FOR THE MONTH - LAST OCCURRENCE IF MORE THAN ONE.  |
+ | T TRACE AMOUNT.                                               |
+ | +  ALSO ON EARLIER DATES.                                     |
+ | HEAVY FOG: VISIBILITY 1/4 MILE OR LESS.                       |
+ | BLANK ENTRIES OR ZEROS MAY DENOTE MISSING OR UNREPORTED DATA. |                               
+ |---------------------------------------------------------------|
+
+
+           NUMERICAL CODES LISTING FOR MONTHLY AVERAGES TABLE
+-----------------------------------------------------------------------------
+| NUMERICAL |                                                               |
+|  COLUMN   |                      TERMINOLOGY                              |
+|---------------------------------------------------------------------------|  
+|    25     | AVERAGE MONTHLY MAXIMUM TEMPERATURE (DEGREES F)               |
+|---------------------------------------------------------------------------|
+|    26     | MONTHLY MAXIMUM TEMPERATURE DEPARTURE FROM NORMAL (DEGREES F) |
+|---------------------------------------------------------------------------|
+|    27     | AVERAGE MONTHLY MINIMUM TEMPERATURE (DEGREES F)               |
+|---------------------------------------------------------------------------|
+|    28     | MONTHLY MINIMUM TEMPERATURE DEPARTURE FROM NORMAL (DEGREES F) |
+|---------------------------------------------------------------------------|
+|    29     | MONTHLY AVERAGE TEMPERATURE (DEGREES F)                       |
+|---------------------------------------------------------------------------|
+|    30     | MONTHLY AVERAGE TEMPERATURE DEPARTURE FROM NORMAL (DEGREES F) |
+|---------------------------------------------------------------------------|
+|    31     | MONTHLY AVERAGE DEW POINT (DEGREES F)                         |
+|---------------------------------------------------------------------------|
+|    32     | MONTHLY AVERAGE WET BULB (DEGREES F)                          |
+|---------------------------------------------------------------------------|
+|    33     | MONTHLY AVERAGE HDD                                           |
+|---------------------------------------------------------------------------|
+|    34     | MONTHLY AVERAGE CDD                                           |
+|---------------------------------------------------------------------------|
+|    35     | MONTHLY TOTAL HDD                                             |
+|---------------------------------------------------------------------------|
+|    36     | MONTHLY HDD DEPARTURE FROM NORMAL                             |
+|---------------------------------------------------------------------------|
+|    37     | SEASON TO DATE TOTAL HDD                                      |
+|---------------------------------------------------------------------------|
+|    38     | SEASON TO DATE DEPARTURE FROM NORMAL HDD                      |
+|---------------------------------------------------------------------------|
+|    39     | MONTHLY TOTAL CDD                                             |
+|---------------------------------------------------------------------------|
+|    40     | MONTHLY CDD DEPARTURE FROM NORMAL                             |
+|---------------------------------------------------------------------------|
+|    41     | SEASON TO DATE TOTAL CDD                                      |
+|---------------------------------------------------------------------------|
+|    42     | SEASON TO DATE DEPARTURE FROM NORMAL CDD                      |
+|---------------------------------------------------------------------------|
+|    43     | TOTAL MONTHLY SNOW/ICE WATER EQUIVALENT (INCHES)              |
+|-----------|---------------------------------------------------------------|
+|    44     | TOTAL MONTHLY SNOWFALL (INCHES)                               |
+|---------------------------------------------------------------------------|
+|    45     | GREATEST MONTHLY 24HR SNOWFALL (INCHES)                       |
+|---------------------------------------------------------------------------|
+|    46     | DATE OF GREATEST MONTHLY 24HR SNOWFALL                        |
+|---------------------------------------------------------------------------|
+|    47     | GREATEST MONTHLY 24HR SNOW DEPTH (INCHES)                     |
+|---------------------------------------------------------------------------|
+|    48     | DATE OF GREATEST MONTHLY 24HR SNOW DEPTH                      |
+|---------------------------------------------------------------------------|
+|    49     | TOTAL MONTHLY PRECIPITATION (INCHES)                          |
+|---------------------------------------------------------------------------|
+
+
+           NUMERICAL CODES LISTING FOR MONTHLY AVERAGES TABLE
+-----------------------------------------------------------------------------
+| NUMERICAL |                                                               |
+|  COLUMN   |                      TERMINOLOGY                              |
+|---------------------------------------------------------------------------|
+|    50     | MONTHLY PRECIPITATION DEPARTURE FROM NORMAL (INCHES)          |
+|---------------------------------------------------------------------------|
+|    51     | GREATEST 24HR PRECIPITATION (INCHES)                          |
+|---------------------------------------------------------------------------|
+|    52     | DATE OF GREATEST 24HR PRECIPITATION                           |
+|---------------------------------------------------------------------------|
+|    53     | MONTHLY AVERAGE STATION PRESSURE (INCHES HG)                  |
+|---------------------------------------------------------------------------|
+|    54     | MONTHLY AVERAGE SEA LEVEL PRESSURE (INCHES HG)                |
+|---------------------------------------------------------------------------|
+|    55     | MONTHLY RESULTANT WIND SPEED (MPH)                            |
+|---------------------------------------------------------------------------|
+|    56     | MONTHLY RESULTANT WIND DIRECTION (TENS OF DEGREES)            |
+|---------------------------------------------------------------------------|
+|    57     | MONTHLY AVERAGE WIND SPEED (MPH)                              |
+|---------------------------------------------------------------------------|
+|    58     | MONTHLY MAXIMUM SEA LEVEL PRESSURE (INCHES OF HG)             |
+|---------------------------------------------------------------------------|
+|    59     | DATE OF MONTHLY MAXIMUM SEA LEVEL PRESSURE                    |
+|---------------------------------------------------------------------------|
+|    60     | TIME OF MONTHLY MAXIMUM SEA LEVEL PRESSURE                    |
+|---------------------------------------------------------------------------|
+|    61     | MONTHLY MINIMUM SEA LEVEL PRESSURE (INCHES OF HG)             |
+|---------------------------------------------------------------------------|
+|    62     | DATE OF MONTHLY MINIMUM SEA LEVEL PRESSURE                    |
+|---------------------------------------------------------------------------|
+|    63     | TIME OF MONTHLY MINIMUM SEA LEVEL PRESSURE                    |
+|---------------------------------------------------------------------------|
+|    64     | NUMBER OF DAYS WITH MAXIMUM TEMPERATURE >= 90 F               |
+|---------------------------------------------------------------------------|
+|    65     | NUMBER OF DAYS WITH MAXIMUM TEMPERATURE <= 32 F               |
+|---------------------------------------------------------------------------|
+|    66     | NUMBER OF DAYS WITH MINIMUM TEMPERATURE <= 32 F               |
+|---------------------------------------------------------------------------|
+|    67     | NUMBER OF DAYS WITH MINIMUM TEMPERATURE <= 0 F                |
+|---------------------------------------------------------------------------|
+|    68     | NUMBER OF DAYS WITH PRECIPITATION >= .01 INCH                 |
+|---------------------------------------------------------------------------|
+|    69     | NUMBER OF DAYS WITH PRECIPITATION >= .10 INCH                 |
+|---------------------------------------------------------------------------|
+|    70     | NUMBER OF DAYS WITH SNOWFALL >= 1.0 INCH                      |
+|---------------------------------------------------------------------------|
+|    71     | NUMBER OF DAYS WITH THUNDERSTORMS                             |
+|---------------------------------------------------------------------------|
+|    72     | NUMBER OF DAYS WITH HEAVY FOG                                 |
+|---------------------------------------------------------------------------|
+
+
+                                HOURLY PRECIPITATION TABLE
+
+   WATER EQUIVALENT IN INCHES
+   T = TRACE PRECIPITATION AMOUNT
+
+      ** THE SUM OF THE HOURLY TOTALS IS GIVEN WHEN IT DIFFERS FROM THE DAILY
+   TOTAL.  NWS DOES NOT EDIT ASOS HOURLY VALUES BUT MAY EDIT DAILY AND
+   MONTHLY TOTALS.  HOURLY, DAILY, AND MONTHLY TOTALS ARE PRINTED AS
+   REPORTED BY THE ASOS SITE.  
+   
+   HOURLY PRECIPITATION DATA ARE NOT NORMALLY AVAILABLE FOR AWOS SITES.
+
+   ** NCDC DERIVES THE MONTHLY SHORT DURATION PRECIPITATION FROM 1 MINUTE
+   ASOS DATA. THE MONTHLY SHORT DURATION PRECIPITATION DATA ARE NOT
+   PRINTED WHEN INCONSISTENT WITH ASOS HOURLY TOTALS.
+
+                      
+                 NUMERICAL CODES LISTING FOR HOURLY OBSERVATIONS
+ --------------------------------------------------------------------------------------
+ | NUMERICAL |                                                                        | 
+ |  COLUMN   |                         TERMINOLOGY                                    | 
+ |------------------------------------------------------------------------------------| 
+ |    1      | DATE                                                                   |
+ |------------------------------------------------------------------------------------|
+ |    2      | TIME IN LST (LOCAL STANDARD TIME)                                      |
+ |------------------------------------------------------------------------------------|
+ |           | STATION TYPE:                                                          |
+ |    3      | A02  = UNATTENDED                                                      |
+ |           | A02A = ATTENDED (OBSERVER PRESENT)                                     |
+ |------------------------------------------------------------------------------------|
+ |    4      | ASOS MAINTENANCE INDICATOR                                             |
+ |           |                                                                        |
+ |           | (INDICATES ASOS EQUIPMENT IS EXPERIENCING MAINTENANCE AS A RESULT OF   |
+ |           |  INTERNAL QUALITY ASSURANCE CHECKS.  ONE OR MORE ELEMENTS MAY BE       |
+ |           |  MISSING OR REPLACED BY MANUAL INTERVENTION.)                          |
+ |------------------------------------------------------------------------------------|
+ |    5      | SKY CONDITIONS:                                                        |
+ |           |                                                                        |
+ |           | SKY CONDITIONS BELOW 12,000 FEET AGL (ABOVE GROUND LEVEL)              |
+ |           | SKY CONDITIONS CONTRACTIONS ARE FOR EACH LAYER IN ASCENDING ORDER.     |
+ |           | NUMBERS FOLLOWING CONTRACTIONS ARE BASE HEIGHT IN HUNDREDS OF FEET     |
+ |           | ABOVE GROUND LEVEL (AGL).                                              |
+ |           | CLR: CLEAR BELOW 12,000 FT                                             |
+ |           | FEW: > 0/8 - 2/8 SKY COVER                                             |
+ |           | SCT SCATTERED:  3/8 - 4/8 SKY COVER                                    |
+ |           | BKN BROKEN: 5/8 - 7/8 SKY COVER                                        |
+ |           | OVC OVERCAST: 8/8 SKY COVER                                            |
+ |           |                                                                        |
+ |           | VVXXX INDICATES INDEFINITE CEILING WITH THE VERTICAL VISIBILITY (XXX)  |
+ |           | LISTED IN HUNDREDS OF FEET.                                            |
+ |           |                                                                        |
+ |           | WHEN CLOUDS ARE COMPOSED OF TOWERING CUMULUS OR CUMULONIMBUS,          |
+ |           | TCU OR CB (RESPECTIVELY) FOLLOW CLOUD HEIGHT.                          |
+ |------------------------------------------------------------------------------------|
+ |    6      | VISIBILITY:                                                            |         
+ |           |                                                                        |
+ |           | REPORTED IN STATUTE MILES AND FRACTIONS FROM < 1/4 THROUGH 10+         |
+ |------------------------------------------------------------------------------------|
+
+                      
+                 NUMERICAL CODES LISTING FOR HOURLY OBSERVATIONS
+ --------------------------------------------------------------------------------------
+ | NUMERICAL |                                                                        | 
+ |  COLUMN   |                         TERMINOLOGY                                    | 
+ |------------------------------------------------------------------------------------| 
+ |    7      | (SEE DAILY TABLE #10 FOR EXPLANATION OF WEATHER TYPES)                 |
+ |-----------|------------------------------------------------------------------------|
+ |    8      | DRY BULB TEMPERATURE (DEGREES F) WHOLE DEGREES                         |   
+ |-----------|------------------------------------------------------------------------|
+ |    9      | DRY BULB TEMPERATURE (DEGREES C) ASOS IN TENTHS; AWOS IN WHOLE DEGREES |     
+ |-----------|------------------------------------------------------------------------|
+ |    10     | WET BULB TEMPERATURE (DEGREES F) WHOLE DEGREES                         |   
+ |-----------|------------------------------------------------------------------------|
+ |    11     | WET BULB TEMPERATURE (DEGREES C) ASOS IN TENTHS; AWOS IN WHOLE DEGREES |   
+ |-----------|------------------------------------------------------------------------|
+ |    12     | DEW POINT TEMPERATURE (DEGREES F) WHOLE DEGREES                        |   
+ |-----------|------------------------------------------------------------------------|
+ |    13     | DEW POINT TEMPERATURE (DEGREES C) ASOS IN TENTHS; AWOS IN WHOLE DEGREES|   
+ |-----------|------------------------------------------------------------------------|
+ |    14     | RELATIVE HUMIDITY (PERCENT)                                            |         
+ |-----------|------------------------------------------------------------------------|
+ |    15     | WIND SPEED (KNOTS)                                                     |
+ |-----------|------------------------------------------------------------------------|
+ |    16     | WIND DIRECTION (TENS OF DEGREES FROM TRUE NORTH)                       |
+ |           |                                                                        |
+ |           | VRB = VARIABLE WITH SPEED EQUAL TO OR LESS THAN 6 KNOTS                |
+ |-----------|------------------------------------------------------------------------|
+ |    17     | WIND CHARACTERISTIC GUSTS (KTS)                                        |
+ |-----------|------------------------------------------------------------------------|
+ |    18     | VALUE FOR WIND CHARACTER (WHOLE UNITS)                                 |
+ |-----------|------------------------------------------------------------------------|
+ |    19     | STATION PRESSURE (INCHES IN HUNDREDTHS)                                |
+ |-----------|------------------------------------------------------------------------|
+ |    20     | PRESSURE TENDENCY                                                      |
+ |-----------|------------------------------------------------------------------------|
+ |    21     | SEA LEVEL PRESSURE                                                     |
+ |           |                                                                        |
+ |           | TENTHS OF HECTOPASCALS (MILLIBARS).                                    |
+ |           | SHOWN AS LAST 3 DIGITS ONLY WITHOUT DECIMAL POINT (eg.,013 = 1001.3 MB)|
+ |-----------|------------------------------------------------------------------------|
+ |    22     | REPORT TYPE:                                                           |
+ |           |                                                                        |
+ |           | AA - METAR (AVIATION ROUTINE WEATHER REPORT) - HOURLY                  |
+ |           | SP - METAR SPECIAL REPORT                                              |
+ |-----------|------------------------------------------------------------------------|
+ |    23     | PRECIPITATION TOTALS (INCHES AND HUNDREDTHS)                           |
+ |           |                                                                        |
+ |           |1)  HOURLY TOTALS IF COLUMN 19 IS "AA" (HOURLY METAR REPORT).           |
+ |           |                                                                        |           
+ |           |2)  CUMULATIVE AMOUNT SINCE THE LAST HOURLY METAR REPORT IF             |
+ |           |    COLUMN 19 IS "SP" (METAR SPECIAL REPORT).                           |
+ |------------------------------------------------------------------------------------|           
+    
+
+           
+ --------------------------------------------------------------
+ |  WIND CHILL EQUIVALENT TEMPERATURE (SIPLE & PASSEL, 1945)  |
+ |                                                            |
+ |                     WIND VELOCITY (MPH)                    |
+ |             4    5   10   15   20   25   30   35   40   45 |
+ |                                                            |
+ |     45     45   43   34   29   26   23   21   20   19   18 |
+ |     40     40   37   26   23   19   16   13   12   11   10 |
+ | T>  35     35   32   22   16   12    8    6    4    3    2 |
+ | E>  30     30   27   16    9    4    1   -2   -4   -5   -6 |
+ | M>  25     25   22   10    2   -3   -7  -10  -12  -13  -14 |
+ | P>  20     20   16    3   -5  -10  -15  -18  -20  -21  -22 |
+ | E>  15     15   11   -3  -11  -17  -22  -25  -27  -29  -30 | 
+ | R>  10     10    6   -9  -18  -24  -29  -33  -35  -37  -38 | 
+ | A>   5      5    0  -15  -25  -31  -36  -41  -43  -45  -46 |
+ | T>   0      0   -5  -22  -31  -39  -44  -49  -52  -53  -54 |
+ | U>  -5     -5  -10  -27  -38  -46  -51  -56  -58  -60  -62 |
+ | R> -10    -10  -15  -34  -45  -53  -59  -64  -67  -69  -70 |
+ | E> -15    -15  -21  -40  -51  -60  -66  -71  -74  -76  -78 |
+ |    -20    -20  -26  -46  -58  -67  -74  -79  -82  -84  -85 | 
+ |    -25    -25  -31  -52  -65  -74  -81  -86  -89  -92  -93 |
+ |    -30    -30  -36  -58  -72  -81  -88  -93  -97 -100 -102 |
+ --------------------------------------------------------------
+
+
+Surface Weather Observations - METAR always have wind speeds recorded in knots. The conversion table below 
+will provide a quick conversion for winds from calm to 99 knots. The converted values are all rounded to 
+the nearest integer. For a more accurate conversion use the following formula: 
+KNOT = 1.15155 MILES PER HOUR
+
+--------------------------------------------------------
+|  Knots to Miles Per Hour Conversion Chart            |
+|                                                      |
+|K    0    1    2    3    4    5    6    7    8    9   |
+|T    MPH  MPH  MPH  MPH  MPH  MPH  MPH  MPH  MPH  MPH | 
+|S                                                     |
+|0    0    1    2    3    5    6    7    8    9    10  |
+|10   12   13   14   15   16   17   18   20   21   22  |
+|20   23   24   25   26   28   29   30   31   32   33  |
+|30   35   36   37   38   39   40   41   43   44   45  |
+|40   46   47   48   49   51   52   53   54   55   56  |
+|50   58   59   60   61   62   63   64   66   67   68  |
+|60   69   70   71   72   74   75   76   77   78   79  |
+|70   81   82   83   84   85   86   87   89   90   91  |
+|80   92   93   94   96   97   98   99   100  101  102 | 
+|90   104  105  106  107  108  109  110  112  113  114 | 
+--------------------------------------------------------
+
+
+ -----------------------------------------------------------------------------
+ |                  TEMPERATURE - HUMIDITY INDEX (STEADMAN, 1979)            |
+ |                                                                           |
+ |                         RELATIVE HUMIDITY  (PERCENT)                      |
+ |             0    10    20    30    40    50    60    70    80    90  100  |
+ |                                                                           |
+ | T > 120   107   116   130   148                                           |
+ | E > 115   103   111   120   135   151                                     |
+ | M > 110    99   105   112   123   137   150                               |
+ | P > 105    95   100   105   113   123   135   149                         |
+ | E > 100    91    95    99   104   110   120   132   144                   |
+ | R >  95    87    90    93    96   101   107   114   124   136             |
+ | A >  90    83    85    87    90    93    96   100   106   113   122       |
+ | T >  85    78    80    82    84    86    88    90    93    97   102   108 |
+ | U >  80    73    75    77    78    79    81    82    85    86    88    91 |
+ | R >  75    69    70    72    73    74    75    76    77    78    79    80 |
+ | E >  70    64    65    66    67    68    69    70    70    71    71    72 |
+ ------------------------------------------------------------------------------
+
+                      

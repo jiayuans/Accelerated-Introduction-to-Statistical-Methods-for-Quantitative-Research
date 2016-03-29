@@ -1,0 +1,6 @@
+
+
+Logan airport rain data 2000-2004, hourly readings
+
+collected from http://www.ncdc.noaa.gov/ulcd/ULCD
+
