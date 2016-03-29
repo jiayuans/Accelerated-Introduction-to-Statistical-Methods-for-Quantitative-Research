@@ -1,0 +1,50 @@
+---
+title: "College Scorecard Data"
+author: "Jiayuan Shi"
+date: "November 07, 2015"
+output: ioslides_presentation
+runtime: shiny
+---
+
+## Shiny Presentation
+
+This R Markdown presentation is made interactive using Shiny. The data comes from College Scorecard. It shows two plots. One is to compare the median earnings of students from Boston College, Boston University, Harvard University, Massachusetts Institute of Technology and Northeastern University. The other is to compare the median earnings of students in different years not enrolled after entry.
+
+## Compare Earnings of Students from Different Colleges
+```{r, echo=FALSE}
+mdearn <- read.csv("md_earn.csv",header=T)
+inputPanel(
+  selectInput("region", "Working Years Not Enrolled:", 
+                    choices=colnames(mdearn[,2:4]), selected = colnames(mdearn[,2]) )
+)
+
+renderPlot({
+   plot <- barplot(mdearn[,input$region], 
+            main=input$region,
+            ylab="Median Earnings of Students Working",
+            xlab="College",
+            names.arg = c("BC", "BU", "Harvard", "MIT", "NU"))
+  text(x = plot, y = mdearn[,input$region], label = mdearn[,input$region], pos = 1, cex = 1.2, col = "red")
+})
+```
+
+## Compare Earnings of Students in Different Years
+```{r, echo=FALSE, warning=FALSE}
+mdearn2 <- read.csv("md_earn2.csv",header=T)
+inputPanel(
+  selectInput("college", "College:", 
+                    choices=colnames(mdearn2[,2:6]), selected = colnames(mdearn2[,3]))
+)
+
+renderPlot({
+   plot2 <- barplot(mdearn2[,input$college], 
+            main=input$college,
+            ylab="Median Earnings of Students Working",
+            xlab="Years",
+            names.arg = c("10 years", "8 years", "6 years"))
+  text(x = plot2, y = mdearn2[,input$college], label = mdearn2[,input$college], pos = 1, cex = 1.2, col = "red")
+})
+```
+
+## Conclusion
+From the first barplot, we can see that students from  Massachusetts Institute of Technology always have the highest income among the five colleges in Boston, following by students from Harvard University and Boston College. In addition, from the second barplot, we can see that students work in 10 years not enrolled after entry have the highest earnings, which means the longer years students are working, the higher earnings they will get. 
