@@ -1,2 +1,2 @@
-# MA_881
-Statistical computing course in Fall 2015
+# GRS MA 681: Accelerated Introduction to Statistical Methods for Quantitative Research
+Introduction to statistical methods relevant to research in the computational sciences. Core topics include probability theory, estimation theory, hypothesis testing, linear models, GLMs, and experimental design. Emphasis on developing a firm conceptual understanding of the statistical paradigm through data analyses.
