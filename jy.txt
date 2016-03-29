@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-this is the changed line
-=======
-this is a changed line.
->>>>>>> jy
